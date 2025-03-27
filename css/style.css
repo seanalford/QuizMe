@@ -1,0 +1,92 @@
+.welcome-card {
+    max-width: 600px;  /* Increased from 500px */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.welcome-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.welcome-card .card-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 1rem;
+}
+
+.welcome-card .card-body {
+    padding: 2rem;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+    border: 2px solid #e9ecef;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.15);
+}
+
+.language-selector {
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language-select {
+    padding-left: 30px; /* Make room for the flag */
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
+
+/* Style for each option */
+#languageSelect option {
+    padding-left: 30px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
+
+/* Remove the separate flag container since we'll embed them */
+.flag-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Add styles for custom select */
+.language-option {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.quiz-card {
+    width: 600px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.question-text {
+    text-align: center;
+}
+
+.language-flag {
+    width: 32px;
+    height: 32px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
